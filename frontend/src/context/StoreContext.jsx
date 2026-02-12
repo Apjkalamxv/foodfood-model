@@ -6,7 +6,7 @@ import axios from"axios"
 const StoreContextprovider=(props)=>{
 
 const[ cartItems,setCartItems]= useState({});
-const url="http://localhost:4000";
+const url="https://fooddel-backend-x2g9.onrender.com";
 const[token,setToken]=useState("");
 const[food_list,setFoodList]=useState([])
 const addToCart= async (itemId)=>{
